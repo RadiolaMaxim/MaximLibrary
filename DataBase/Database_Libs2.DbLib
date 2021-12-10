@@ -50,6 +50,9 @@ TableName=Microcontrolers
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=100|Footprint Ref0=105|Footprint Path0=114
 [Table6]
 SchemaName=
 TableName=Potentiometers
