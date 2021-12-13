@@ -32,12 +32,18 @@ TableName=Crystal
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=172|Footprint Ref0=105|Footprint Path0=174
 [Table3]
 SchemaName=
 TableName=Microcontrolers
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=148|Footprint Ref0=105|Footprint Path0=149
 [FieldMap1]
 Options=FieldName=Connectors.Part Number|TableNameOnly=Connectors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
