@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\MaximLibrary\D
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Capacitors
+LastFocusedTable=~TMPCLP133861
 [Table1]
 SchemaName=
 TableName=Capacitors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=116|Footprint Ref0=105|Footprint Path0=117|Metric Size Code0=127
 [Table2]
 SchemaName=
 TableName=Connectors
@@ -41,19 +38,67 @@ TableName=Crystal
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=164|Library Ref0=164|Library Path0=119|Footprint Ref0=164|Footprint Path0=120|URL Help0=676|Mauser Part Number0=165|Digi Key Part Number0=227
 [Table4]
 SchemaName=
-TableName=Microcontrolers
+TableName=Diodes
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table5]
 SchemaName=
-TableName=Resistors
+TableName=Inductors
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table6]
+SchemaName=
+TableName=Integrated circuit
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table7]
+SchemaName=
+TableName=LED
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=109|Library Ref0=109|Library Path0=99|Footprint Ref0=109|Footprint Path0=114|URL Help0=688|Mauser Part Number0=154|Digi Key Part Number0=158
+[Table8]
+SchemaName=
+TableName=Microcontrolers
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table9]
+SchemaName=
+TableName=Resistors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=100|Footprint Ref0=105|Footprint Path0=114
+[Table10]
+SchemaName=
+TableName=Switches
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=109|Library Ref0=109|Library Path0=104|Footprint Ref0=109|Footprint Path0=114|URL Help0=953|Mauser Part Number0=165|Digi Key Part Number0=158
+[Table11]
+SchemaName=
+TableName=Transistor
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table12]
 SchemaName=
 TableName=~TMPCLP133861
 Enabled=True
@@ -90,32 +135,92 @@ Options=FieldName=Crystal.Footprint Ref|TableNameOnly=Crystal|FieldNameOnly=Foot
 [FieldMap15]
 Options=FieldName=Crystal.Footprint Path|TableNameOnly=Crystal|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Microcontrolers.Part Number|TableNameOnly=Microcontrolers|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Part Number|TableNameOnly=Diodes|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Microcontrolers.Library Ref|TableNameOnly=Microcontrolers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Microcontrolers.Library Path|TableNameOnly=Microcontrolers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Library Path|TableNameOnly=Diodes|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Microcontrolers.Footprint Ref|TableNameOnly=Microcontrolers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Footprint Ref|TableNameOnly=Diodes|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=Microcontrolers.Footprint Path|TableNameOnly=Microcontrolers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes.Footprint Path|TableNameOnly=Diodes|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=Resistors.Part Number|TableNameOnly=Resistors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Part Number|TableNameOnly=Inductors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Library Path|TableNameOnly=Inductors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductors.Footprint Path|TableNameOnly=Inductors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
-Options=FieldName=~TMPCLP133861.Part Number|TableNameOnly=~TMPCLP133861|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated circuit.Part Number|TableNameOnly=Integrated circuit|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
-Options=FieldName=~TMPCLP133861.Library Ref|TableNameOnly=~TMPCLP133861|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated circuit.Library Ref|TableNameOnly=Integrated circuit|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
-Options=FieldName=~TMPCLP133861.Library Path|TableNameOnly=~TMPCLP133861|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated circuit.Library Path|TableNameOnly=Integrated circuit|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=~TMPCLP133861.Footprint Ref|TableNameOnly=~TMPCLP133861|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated circuit.Footprint Ref|TableNameOnly=Integrated circuit|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
+Options=FieldName=Integrated circuit.Footprint Path|TableNameOnly=Integrated circuit|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=LED.Part Number|TableNameOnly=LED|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=LED.Library Ref|TableNameOnly=LED|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=LED.Library Path|TableNameOnly=LED|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=LED.Footprint Ref|TableNameOnly=LED|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=LED.Footprint Path|TableNameOnly=LED|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=Microcontrolers.Part Number|TableNameOnly=Microcontrolers|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=Microcontrolers.Library Ref|TableNameOnly=Microcontrolers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Microcontrolers.Library Path|TableNameOnly=Microcontrolers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=Microcontrolers.Footprint Ref|TableNameOnly=Microcontrolers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Microcontrolers.Footprint Path|TableNameOnly=Microcontrolers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=Resistors.Part Number|TableNameOnly=Resistors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=Switches.Part Number|TableNameOnly=Switches|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=Switches.Library Ref|TableNameOnly=Switches|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=Switches.Library Path|TableNameOnly=Switches|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=Switches.Footprint Ref|TableNameOnly=Switches|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=Switches.Footprint Path|TableNameOnly=Switches|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap51]
+Options=FieldName=Transistor.Part Number|TableNameOnly=Transistor|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=Transistor.Library Ref|TableNameOnly=Transistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=Transistor.Library Path|TableNameOnly=Transistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=Transistor.Footprint Ref|TableNameOnly=Transistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=Transistor.Footprint Path|TableNameOnly=Transistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=~TMPCLP133861.Part Number|TableNameOnly=~TMPCLP133861|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=~TMPCLP133861.Library Ref|TableNameOnly=~TMPCLP133861|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap58]
+Options=FieldName=~TMPCLP133861.Library Path|TableNameOnly=~TMPCLP133861|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=~TMPCLP133861.Footprint Ref|TableNameOnly=~TMPCLP133861|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
 Options=FieldName=~TMPCLP133861.Footprint Path|TableNameOnly=~TMPCLP133861|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
