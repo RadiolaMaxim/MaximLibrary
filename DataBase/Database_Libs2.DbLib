@@ -38,9 +38,6 @@ TableName=Crystal
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=164|Library Ref0=164|Library Path0=119|Footprint Ref0=164|Footprint Path0=120|URL Help0=676|Mauser Part Number0=165|Digi Key Part Number0=227
 [Table4]
 SchemaName=
 TableName=Diodes
@@ -65,9 +62,6 @@ TableName=LED
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=109|Library Ref0=109|Library Path0=99|Footprint Ref0=109|Footprint Path0=114|URL Help0=688|Mauser Part Number0=154|Digi Key Part Number0=158
 [Table8]
 SchemaName=
 TableName=Microcontrolers
@@ -80,18 +74,12 @@ TableName=Resistors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=104|Library Ref0=90|Library Path0=100|Footprint Ref0=105|Footprint Path0=114
 [Table10]
 SchemaName=
 TableName=Switches
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=109|Library Ref0=109|Library Path0=104|Footprint Ref0=109|Footprint Path0=114|URL Help0=953|Mauser Part Number0=165|Digi Key Part Number0=158
 [Table11]
 SchemaName=
 TableName=Transistor
